@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+/* header styles */
+
+header {
+    padding: 10px 15px;
+    background-color: black;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+/* footer styles */
+
+footer {
+    padding: 20px;
+    clear: both;
+    text-align: right;
+}
+
+footer h2 {
+    font-size: 15px;
+    color: goldenrod;
+}
+
+/* hero styles */
+
+.hero {
+    background-image: url(../images/hero.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;    
+}
+
+.hero-info {
+    position: relative;
+    top: 240px;
+    left: 200px;
+}
+
+.hero h2 {
+    font-family: fantasy;
+    font-size: 66px;
+}
+
+.hero h3 {
+    font-size: 30px;
+    color: goldenrod;
+}
