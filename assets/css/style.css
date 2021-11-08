@@ -101,7 +101,6 @@ section {
 
 .intro {
     text-align: center;
-    height: 500px;
 }
 
 .intro p {
@@ -116,14 +115,13 @@ section {
 .project {
     text-align: center;
     background-color: whitesmoke;
-    height: 640px;
 }
 
 .project-content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 10px 50px 80px 50px;
+    margin: 10px 30px;
 }
 
 .project-content>* {
@@ -146,7 +144,7 @@ section {
     background-image: url("../images/project2.jpg");
     border-radius: 25px;
     background-size: cover;
-    background-position: right;
+    background-position: left;
 }
 
 .project h3 {
@@ -168,7 +166,7 @@ section {
 }
 
 .flex-item:first-child {
-    flex-basis: 30%;
+    flex-basis: 25%;
 }
 
 .flex-item div {
@@ -188,7 +186,65 @@ section {
     font-style: normal;
 }
 
-.contact a{
+.contact a {
     text-decoration: none;
-    color:goldenrod;
+    color: goldenrod;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+
+@media screen and (max-width: 980px) {
+    footer h2 {
+        text-align: right;
+        width: 100%;
+    }
+    .hero-info {
+        position: relative;
+        top: 120px;
+        left: 50px;
+    }
+    .hero h2 {
+        font-size: 60px;
+    }
+    .flex-item {
+        flex: 1 60%;
+    }
+    .develop {
+        height: 270px;
+        background-position: left;
+        background-size: contain;
+    }
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+
+@media screen and (max-width: 768px) {
+    .hero-info {
+        position: relative;
+        top: 120px;
+        left: 40px;
+    }
+    .hero h2 {
+        font-size: 54px;
+    }
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+@media screen and (max-width: 575px) {
+    .section-title {
+        width: 95%;
+    }
+    .hero-info {
+        width: 100%;
+    }
+    .hero h2 {
+        font-size: 35px;
+    }
+    .intro p {
+        width: 100%;
+    }
+    .project-content {
+        margin: 10px 0;
+    }
 }
