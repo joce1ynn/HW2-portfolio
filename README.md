@@ -8,7 +8,7 @@ This web page shows my first portfolio. I was able to use advaced CSS skills to 
 * CSS
 
 ## Website
-https://joce1ynn.github.io/HW1-portfolio/
+https://joce1ynn.github.io/HW2-portfolio/
 
 ## Website Screenshot
 ![Screenshot](/assets/images/Wenwen-Tian.png)
