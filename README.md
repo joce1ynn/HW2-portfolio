@@ -11,7 +11,7 @@ This web page shows my first portfolio. I was able to use advaced CSS skills to 
 https://joce1ynn.github.io/HW1-portfolio/
 
 ## Website Screenshot
-![Screenshot](/assets/images/Wenwen Tian.png)
+![Screenshot](/assets/images/Wenwen-Tian.png)
 
 ## Contribution
 Designed by Wenwen Tian
