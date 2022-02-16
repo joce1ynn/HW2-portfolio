@@ -141,8 +141,8 @@ section {
   background-position: right;
 }
 
-.develop {
-  background-image: url("../images/project2.jpg");
+.matrix {
+  background-image: url("../images/matrix.jpg");
   border-radius: 25px;
   background-size: cover;
   background-position: left;
@@ -155,8 +155,9 @@ section {
   background-position: center;
 }
 
-.chrip h3,
-.chrip h4 {color: white;
+.project-content h3,
+.project-content h4 {
+  color: white;
 }
 
 .project h3 {
@@ -167,7 +168,7 @@ section {
 .project h4 {
   font-weight: lighter;
   font-size: 15px;
-  margin-bottom: 25px;
+  margin: 0 0 20px 20px;
 }
 
 .flex-item {
