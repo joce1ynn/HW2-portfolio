@@ -134,11 +134,11 @@ section {
   background-color: whitesmoke;
 }
 
-.run-buddy {
-  background-image: url("../images/project1.jpeg");
+.fitness {
+  background-image: url("../images/fitness.jpeg");
   border-radius: 25px;
   background-size: cover;
-  background-position: right;
+  background-position: left;
 }
 
 .matrix {
